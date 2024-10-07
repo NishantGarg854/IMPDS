@@ -1,0 +1,183 @@
+
+section {
+	width: 1380px;
+	margin: 0 auto;
+	height: 100vh;
+	background-color: #785123;
+	cursor: pointer !important;
+}
+.mapArea {
+	width:46.33%;
+}
+.district-live-map {
+	display: none;
+}
+.district-map svg path {
+	fill-opacity: 1 !important;
+	stroke: #000000 !important;
+	stroke-width: 1px !important;
+}
+.st2 {
+	fill: none;
+	stroke: #344C64;
+	stroke-width: 2;
+	stroke-miterlimit: 10;
+}
+g > text.statesStyle {
+	font-family: Arial, Helvetica, sans-serif;
+	letter-spacing: 1px;
+	font-size: 18px;
+	fill: #3d3d3d;
+	stroke-width: 3;
+	font-weight: 800;
+	cursor: pointer;
+}
+
+.stroke {
+	stroke: #333333 !important;
+}
+
+
+.S01 {
+	fill: #FEBC85 !important;
+}
+
+.S02 {
+	fill: #FEDD86 !important;
+}
+
+.S03 {
+	fill: #ECBED9 !important;
+}
+
+.S04 {
+	fill: #FEDD86 !important;
+}
+
+.S05 {
+	fill: #D1C6B7 !important;
+}
+
+.S06 {
+	fill: #E5677D !important;
+}
+
+.S07 {
+	fill: #F9AFA9 !important;
+}
+
+.S08 {
+	fill: #E59A89 !important;
+}
+
+.S09 {
+	fill: #8DD3B7 !important;
+}
+
+.S10 {
+	fill: #CCC9A3 !important;
+}
+
+.S11 {
+	fill: #BAC2E1 !important;
+}
+
+.S12 {
+	fill: #E5A4BC !important;
+}
+
+.S13 {
+	fill: #92D1E6 !important;
+}
+
+.S14 {
+	fill: #ECB9B0 !important;
+}
+
+.S15 {
+	fill: #CAB1DA !important;
+}
+
+.S16 {
+	fill: #C6B7AA !important;
+}
+
+.S17 {
+	fill: #EEE7AF !important;
+}
+
+.S18 {
+	fill: #7ECBB6 !important;
+}
+
+.S19 {
+	fill: #78C6E6 !important;
+}
+
+.S20 {
+	fill: #B0C3BD !important;
+}
+
+.S21 {
+	fill: #F9AFA9 !important;
+}
+
+.S22 {
+	fill: #63CCC3 !important;
+}
+
+.S23 {
+	fill: #D3CD85 !important;
+}
+
+.S24 {
+	fill: #CCC9A3 !important;
+}
+
+.S27 {
+	fill: #BAC2E1 !important;
+}
+
+.S28 {
+	fill: #88AEBA !important;
+}
+
+.S29 {
+	fill: #FEF4C7 !important;
+}
+
+.S30 {
+	fill: #78C6E6 !important;
+}
+
+.S31 {
+	fill: #C9CC9B !important;
+}
+
+.S32 {
+	fill: #F2C1A4 !important;
+}
+
+.S33 {
+	fill: #63CCC3 !important;
+}
+
+.S34 {
+	fill: #E3A4BC !important;
+}
+
+.S35 {
+	fill: #D67F98 !important;
+}
+
+.S36 {
+	fill: #D1BA96 !important;
+}
+
+.S37 {
+	fill: #92E2F7 !important;
+}
+
+.S38 {
+	fill: #88A4BC !important;
+}

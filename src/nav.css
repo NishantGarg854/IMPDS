@@ -1,0 +1,12 @@
+.hide{display: none !important;}
+.navigation{width:50px;background:#cce4f1;overflow-x: hidden;transition:400ms ease;}
+.mainNavigation{display: block;transition:400ms ease;}
+.navigation.open{width:250px;}
+.mainNavigation li{display: flex;width:100%;border-bottom:1px solid #075f8f;transition:400ms ease;}
+.mainNavigation li a{display: inline-flex;color:#075f8f;align-items: center;height:50px;transition:400ms ease;}
+.mainNavigation li a .icon{width:50px;text-align: center;}
+.toggleMenu{display: block;width:100%;height:50px;cursor: pointer;background-color:#075f8f;border:0 none;color:#fff;border-bottom:1px solid #075f8f;text-align: start;padding:0px 14px;}
+.mainNavigation li:hover{background-color:#075f8f;color:#cce4f1;}
+.mainNavigation li:hover a{color:#cce4f1;}
+.mainNavigation li.active{background-color:#FFF;}
+.mainNavigation li.active a{color:#075f8f;}

@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Map Animation SVG || Tarun Nanda</title>
+	<link href="assets/css/style.css" rel="stylesheet"  type="text/css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+<section>
+	<div class="mapArea">
+		<div class="live-map"></div>
+		<div class="district-live-map">
+			<div class="district-map"></div>
+		</div>
+	</div>
+</section>
+<script type="text/javascript">
+	var detailType = 'summary';
+	var selectedState = '00';
+	var selectedDistrict = '00';
+	$('.live-map').load('assets/map/india.svg', function () {
+		$('.live-map svg path').dblclick(function (e) {
+            e.stopPropagation();
+			console.log("Selected: ",e);
+			if (detailType === 'summary') {
+				$('.live-map').hide();
+                selectedState = $(this).attr('id').substring(1);  
+                //alert(selectedState);
+				$('.district-live-map').show();
+				$('.district-map').load('assets/map/DS' + selectedState + '.svg', function () {
+					var colorClass = 'S' + selectedState;
+					$('.district-map > svg path')
+						.each(function () {
+							$(this).attr('class', colorClass);
+						})
+						.click(function () {
+							selectedDistrict = $(this).attr('id');
+							alert($('#N' + selectedDistrict).text());
+						});
+				});					
+			}
+		});
+	});
+</script>
+</body>
+</html>
